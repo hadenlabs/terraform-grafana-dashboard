@@ -54,7 +54,7 @@ badges:
     image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
     url: https://conventionalcommits.org
   - name: KeepAChangelog
-    image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
+    image: https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange
     url: https://keepachangelog.com
   - name: Terraform Version
     image: https://img.shields.io/badge/terraform-1.x%20|%200.15%20|%200.14%20|%200.13%20|%200.12.20+-623CE4.svg?logo=terraform
