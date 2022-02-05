@@ -1,9 +1,9 @@
 package log
 
 import (
-	"github.com/hadenlabs/terraform-module-template/config"
-	"github.com/hadenlabs/terraform-module-template/internal/common/log/provider"
-	"github.com/hadenlabs/terraform-module-template/internal/errors"
+	"github.com/hadenlabs/terraform-grafana-dashboard/config"
+	"github.com/hadenlabs/terraform-grafana-dashboard/internal/common/log/provider"
+	"github.com/hadenlabs/terraform-grafana-dashboard/internal/errors"
 )
 
 // New initialize a new Log.

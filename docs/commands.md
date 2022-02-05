@@ -1,8 +1,8 @@
-<!-- Space: TerraformModuleTemplate -->
+<!-- Space: TerraformGrafanaDashboard -->
 <!-- Parent: Project -->
-<!-- Title: Commands -->
+<!-- Title: Project Commands -->
 
-<!-- Label: TerraformModuleTemplate -->
+<!-- Label: TerraformGrafanaDashboard -->
 <!-- Label: Project -->
 <!-- Label: Commands -->
 <!-- Include: docs/disclaimer.md -->

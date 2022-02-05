@@ -1,8 +1,8 @@
-<!-- Space: TerraformModuleTemplate -->
+<!-- Space: TerraformGrafanaDashboard -->
 <!-- Parent: Project -->
-<!-- Title: Releasing -->
+<!-- Title: Project Releasing -->
 
-<!-- Label: TerraformModuleTemplate -->
+<!-- Label: TerraformGrafanaDashboard -->
 <!-- Label: Project -->
 <!-- Label: Releasing -->
 <!-- Include: docs/disclaimer.md -->
@@ -12,7 +12,7 @@
 
 ## Bump a new version
 
-Make a new version of terraform-module-template in the following steps:
+Make a new version of terraform-grafana-dashboard in the following steps:
 
 - Make sure everything is commit to github.com.
 - Update `CHANGELOG.md` with the next version.

@@ -1,6 +1,6 @@
-<!-- Space: TerraformModuleTemplate -->
+<!-- Space: TerraformGrafanaDashboard -->
 <!-- Parent: Project -->
-<!-- Title: Code of Conduct -->
+<!-- Title: Project Code of Conduct -->
 
 <!-- Label: Code of Conduct -->
 <!-- Include: docs/disclaimer.md -->

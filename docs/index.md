@@ -1,1 +1,1 @@
-# Welcome to terraform-module-template documentation
+# Welcome to terraform-grafana-dashboard documentation
