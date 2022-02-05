@@ -1,8 +1,8 @@
-<!-- Space: TerraformModuleTemplate -->
+<!-- Space: TerraformGrafanaDashboard -->
 <!-- Parent: Project -->
-<!-- Title: Troubleshooting -->
+<!-- Title: Project Troubleshooting -->
 
-<!-- Label: TerraformModuleTemplate -->
+<!-- Label: TerraformGrafanaDashboard -->
 <!-- Label: Project -->
 <!-- Label: Troubleshooting -->
 <!-- Include: docs/disclaimer.md -->

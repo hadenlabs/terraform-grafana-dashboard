@@ -1,8 +1,8 @@
-<!-- Space: TerraformModuleTemplate -->
+<!-- Space: TerraformGrafanaDashboard -->
 <!-- Parent: Project -->
-<!-- Title: Env Vars -->
+<!-- Title: Project Env Vars -->
 
-<!-- Label: TerraformModuleTemplate -->
+<!-- Label: TerraformGrafanaDashboard -->
 <!-- Label: Project -->
 <!-- Label: Env Vars -->
 <!-- Include: docs/disclaimer.md -->

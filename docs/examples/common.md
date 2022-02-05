@@ -1,6 +1,6 @@
-<!-- Space: TerraformModuleTemplate -->
+<!-- Space: TerraformGrafanaDashboard -->
 <!-- Parent: Project -->
-<!-- Title: Examples -->
+<!-- Title: Project Examples -->
 
 <!-- Label: Examples -->
 <!-- Include: docs/disclaimer.md -->
@@ -10,8 +10,7 @@
 
 ```hcl
   module "main" {
-    source  = "hadenlabs/terraform-module-template/aws"
+    source  = "hadenlabs/dashboard/grafana"
     version = "0.0.0"
-
   }
 ```

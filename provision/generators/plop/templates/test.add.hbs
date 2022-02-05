@@ -5,9 +5,9 @@ import (
 
 	"github.com/gruntwork-io/terratest/modules/terraform"
 
-	"github.com/hadenlabs/terraform-module-template/config"
+	"github.com/hadenlabs/terraform-grafana-dashboard/config"
 	"github.com/stretchr/testify/assert"
-	"github.com/hadenlabs/terraform-module-template/internal/common/log"
+	"github.com/hadenlabs/terraform-grafana-dashboard/internal/common/log"
 )
 
 func Test{{pascalCase testName}}Success(t *testing.T) {
@@ -15,7 +15,7 @@ func Test{{pascalCase testName}}Success(t *testing.T) {
 	conf := config.Must()
 	logger := log.Factory(*conf)
 	logger.Debugf(
-		"values for test terraform-module-template is",
+		"values for test terraform-grafana-dashboard is",
 	)
 
 	terraformOptions := &terraform.Options{

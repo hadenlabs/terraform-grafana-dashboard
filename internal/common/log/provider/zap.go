@@ -3,7 +3,7 @@ package provider
 import (
 	"go.uber.org/zap"
 
-	"github.com/hadenlabs/terraform-module-template/config"
+	"github.com/hadenlabs/terraform-grafana-dashboard/config"
 )
 
 // Zap is a struct of Zap.

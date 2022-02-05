@@ -1,8 +1,8 @@
-<!-- Space: TerraformModuleTemplate -->
+<!-- Space: TerraformGrafanaDashboard -->
 <!-- Parent: Project -->
-<!-- Title: Components -->
+<!-- Title: Project Components -->
 
-<!-- Label: TerraformModuleTemplate -->
+<!-- Label: TerraformGrafanaDashboard -->
 <!-- Label: Project -->
 <!-- Label: Components -->
 <!-- Include: docs/disclaimer.md -->

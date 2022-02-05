@@ -1,8 +1,8 @@
-<!-- Space: TerraformModuleTemplate -->
+<!-- Space: TerraformGrafanaDashboard -->
 <!-- Parent: Project -->
-<!-- Title: Contributing -->
+<!-- Title: Project Contributing -->
 
-<!-- Label: TerraformModuleTemplate -->
+<!-- Label: TerraformGrafanaDashboard -->
 <!-- Label: Project -->
 <!-- Label: Contributing -->
 <!-- Include: docs/disclaimer.md -->
@@ -10,11 +10,11 @@
 
 # How To Contribute
 
-Contributions to base-template are welcome.
+Contributions to terraform-grafana-dashboard are welcome.
 
 Feel free to use all of the contribution options:
 
-- Contribute to base-template repositories on [GitHub](https://github.com/hadenlabs/base-template). See [Git flow](./contribute/git-flow.md).
+- Contribute to terraform-grafana-dashboard repositories on [GitHub](https://github.com/hadenlabs/terraform-grafana-dashboard). See [Git flow](./contribute/git-flow.md).
 
 ## Getting Started
 
@@ -75,7 +75,7 @@ See [Git flow](./contribute/git-flow.md).
 
 ### Documentation
 
-Documentation is a part of the base-template code base. You can find the documentation files in the `doc/` subdirectory of the [main repository](https://github.com/hadenlabs/base-template). This means that the contribution process is the same for both the source code and documentation.
+Documentation is a part of the terraform-grafana-dashboard code base. You can find the documentation files in the `doc/` subdirectory of the [main repository](https://github.com/hadenlabs/terraform-grafana-dashboard). This means that the contribution process is the same for both the source code and documentation.
 
 ### Testing
 
@@ -83,15 +83,15 @@ See [Testing](./testing.md).
 
 ### Code Submission
 
-1.  See if a [Pull Request](https://github.com/hadenlabs/base-template/pulls) exists
+1.  See if a [Pull Request](https://github.com/hadenlabs/terraform-grafana-dashboard/pulls) exists
     - Add some comments or review the code to help it along
     - Don\'t be afraid to comment when logic needs clarification
-2.  Create a Fork and open a [Pull Request](https://github.com/hadenlabs/base-template/pulls) if needed
+2.  Create a Fork and open a [Pull Request](https://github.com/hadenlabs/terraform-grafana-dashboard/pulls) if needed
 
 ### Code Review
 
 - Anyone can review code
-- Any [Pull Request](https://github.com/hadenlabs/base-template/pulls) should be closed or merged within a week
+- Any [Pull Request](https://github.com/hadenlabs/terraform-grafana-dashboard/pulls) should be closed or merged within a week
 
 ### Code Acceptance
 
