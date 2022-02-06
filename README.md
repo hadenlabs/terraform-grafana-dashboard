@@ -33,7 +33,7 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 ```hcl
   module "main" {
     source  = "hadenlabs/dashboard/grafana"
-    version = "0.0.0"
+    version = "0.1.0"
   }
 ```
 
@@ -54,7 +54,7 @@ Full working examples can be found in [examples](./examples) folder.
 ```hcl
   module "main" {
     source  = "hadenlabs/dashboard/grafana"
-    version = "0.0.0"
+    version = "0.1.0"
   }
 ```
 

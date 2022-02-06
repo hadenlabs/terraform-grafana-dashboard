@@ -1,6 +1,6 @@
 {
   "name": "@hadenlabs/terraform-grafana-dashboard",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "terraform-grafana-dashboard",
   "author": "Luis Mayta <slovacus@gmail.com>",
   "license": "LGPL-3.0",
