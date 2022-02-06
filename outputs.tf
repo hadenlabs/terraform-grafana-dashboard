@@ -8,11 +8,6 @@ output "id" {
   value       = local.outputs.enabled ? join("", grafana_dashboard.this.*.id) : ""
 }
 
-output "slug" {
-  description = "Grafana dashboard SLUG"
-  value       = local.outputs.enabled ? join("", grafana_dashboard.this.*.slug) : ""
-}
-
 output "uid" {
   description = "Grafana dashboard UID"
   value       = local.outputs.enabled ? join("", grafana_dashboard.this.*.uid) : ""
