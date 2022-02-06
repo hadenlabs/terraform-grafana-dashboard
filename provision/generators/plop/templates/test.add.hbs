@@ -6,8 +6,8 @@ import (
 	"github.com/gruntwork-io/terratest/modules/terraform"
 
 	"github.com/hadenlabs/terraform-grafana-dashboard/config"
-	"github.com/stretchr/testify/assert"
 	"github.com/hadenlabs/terraform-grafana-dashboard/internal/common/log"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test{{pascalCase testName}}Success(t *testing.T) {
@@ -17,12 +17,14 @@ func Test{{pascalCase testName}}Success(t *testing.T) {
 	logger.Debugf(
 		"values for test terraform-grafana-dashboard is",
 	)
+	dashboard := "../fixtures/dashboards/home.json"
 
 	terraformOptions := &terraform.Options{
 		// The path to where your Terraform code is located
         TerraformDir: "dash-{{dashCase testName}}",
 		Upgrade:      true,
-		Vars: map[string]interface{}{
+		Vars:         map[string]interface{}{
+			"file_dashboard": dashboard,
 		},
 	}
 
@@ -31,6 +33,6 @@ func Test{{pascalCase testName}}Success(t *testing.T) {
 
 	// This will run `terraform init` and `terraform apply` and fail the test if there are any errors
 	terraform.InitAndApply(t, terraformOptions)
-	outputInstance := terraform.Output(t, terraformOptions, "instance")
-	assert.NotEmpty(t, outputInstance, outputInstance)
+	outputID := terraform.Output(t, terraformOptions, "id")
+	assert.NotEmpty(t, outputID, outputID)
 }
