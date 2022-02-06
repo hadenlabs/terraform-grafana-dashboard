@@ -20,7 +20,7 @@ func Test{{pascalCase testName}}Success(t *testing.T) {
 
 	terraformOptions := &terraform.Options{
 		// The path to where your Terraform code is located
-        TerraformDir: "replace-name-{{dashCase testName}}",
+        TerraformDir: "dash-{{dashCase testName}}",
 		Upgrade:      true,
 		Vars: map[string]interface{}{
 		},
