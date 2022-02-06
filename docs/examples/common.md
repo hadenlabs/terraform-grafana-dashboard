@@ -11,6 +11,6 @@
 ```hcl
   module "main" {
     source  = "hadenlabs/dashboard/grafana"
-    version = "0.0.0"
+    version = "0.1.0"
   }
 ```
